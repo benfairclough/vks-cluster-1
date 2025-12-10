@@ -3,9 +3,9 @@ kind: Cluster
 #define the cluster
 metadata:
   #user-defined name of the cluster; string
-  name: vksclu1
+  name: vks-cluster-1
   #kubernetes namespace for the cluster; string
-  namespace: vkshome
+  namespace: vks-cluster-1
 #define the desired state of cluster
 spec:
   #specify the cluster network; required, there is no default
